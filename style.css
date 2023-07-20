@@ -1,0 +1,124 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+*{
+    text-decoration: none;
+}
+html, body {
+    height: 100%;
+    background: linear-gradient(to bottom left,rgb(57, 124, 240), #170997,#1996c7, rgb(17, 42, 122));
+    /* background: rgb(66, 91, 70) */
+}
+.navbar{
+    background: rgb(101, 64, 9);
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+    padding-right: 15px;
+    padding-left: 15px;
+    /* padding-bottom: 20px; */
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid #daf5ff;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+}
+.li{
+    list-style-type: none;
+    display: inline-block;
+}
+.li a{
+    color: white;
+    font-size: 18px;
+    /* font-weight: ; */
+    margin-right: 25px;
+}
+.li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.button1{
+    background-color: rgb(12, 33, 126);
+    margin-left: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90px;
+}
+.button1 a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.button1 a:hover{
+    background-color: red;
+    color: yellow;
+}
+.img1{
+    border: 1px solid beige;
+    width: 300px;
+    height: 400px;
+    border-radius: 40px;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.hello{
+    position: relative;
+    bottom: 280px;
+    left: 380px;
+    font-size: 15px;
+    color: #daf5ff;
+    border: 1px solid #daf5ff;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #071952;
+    padding: 5px;
+    /* background-color: #75c2f6; */
+}
+.article{
+    border: 1px solid;
+    border-radius: 12px;
+    /* background-color: #068fff; */
+    /* width: 90px;
+    height: 90px; */
+    color: white;
+    padding: 8px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    text-decoration:underline;
+}
+ .article a:hover{
+   background-color: white; 
+ } 
+.front{
+    position: relative;
+    bottom: 850px;
+    left: 720px;
+    color: #daf5ff;
+    border: 1px solid #daf5ff;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #071952;
+    padding: 5px;
+}
+.legal{
+    position: relative;
+    bottom: 1080px;
+    left: 1060px;
+    color: #daf5ff;
+    border: 1px solid #daf5ff;
+    width: 300px;
+    height: 400px;
+    border-radius: 30px;
+    background-color: #071952;
+    padding: 5px;
+}
